@@ -22,6 +22,11 @@
     &__logo {
       color: var(--yellow-theme-main-color);
       cursor: pointer;
+      
+      img{
+        height: 50px;
+        width:50px;
+      }
     }
     &__menu {
       display: flex;

@@ -50,7 +50,7 @@ const contact = () => {
                   type={"text"}
                 />
                 <label htmlFor="email" className="emailLabel">
-                  Name
+                  Email
                 </label>
               </div>
               <div>
@@ -62,7 +62,7 @@ const contact = () => {
                   rows="5"
                 />
                 <label htmlFor="description" className="descriptionLabel">
-                  Name
+                  Description
                 </label>
               </div>
             </div>

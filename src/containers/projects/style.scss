@@ -1,0 +1,14 @@
+.project {
+  &__h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    color: white;
+    font-size:x-large;
+    letter-spacing: 1px;
+    font-style:oblique ;
+    font-weight: bold;
+
+  }
+}

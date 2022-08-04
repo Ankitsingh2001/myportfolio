@@ -12,7 +12,7 @@ export default {
             mode: "push",
           },
           onHover: {
-            enable: true,
+            enable: false,
             mode: "repulse",
           },
           resize: true,
@@ -29,13 +29,13 @@ export default {
       },
       particles: {
         color: {
-          value: ["#7a57eb","#38ebc9","#50c0e3"],
+          value: ["#f7c852"," #dbd951","#c8e34f"],
         },
         links: {
-          color: "#ffdd40",
-          distance: 150,
-          enable: false,
-          opacity: 0.5,
+          color: ["#f7c852"," #dbd951","#c8e34f"],
+          distance: 100,
+          enable:true,
+          opacity: 0.3,
           width: 1,
         },
         collisions: {
@@ -48,15 +48,15 @@ export default {
             default: "bounce",
           },
           random: false,
-          speed: 3,
-          straight: false,
+          speed: 2.5,
+          straight: true,
         },
         number: {
           density: {
             enable: true,
             area: 800,
           },
-          value: 500,
+          value: 150,
         },
         opacity: {
           value: 0.5,
@@ -65,7 +65,7 @@ export default {
           type: ["circle","star","edge","triangle"],
         },
         size: {
-          value: { min: 1, max: 3 },
+          value: { min: 3, max: 5 },
         },
       },
       detectRetina: true,

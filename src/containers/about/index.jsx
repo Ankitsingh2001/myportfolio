@@ -31,7 +31,7 @@ const personalDeltails = [
   },
   {
     label: "Contact :",
-    value: +919950874842,
+    value: "+919950874842",
   },
 ];
 const About = () => {

@@ -22,24 +22,24 @@ export default {
             quantity: 4,
           },
           repulse: {
-            distance: 200,
+            distance: 20,
             duration: 1,
           },
         },
       },
       particles: {
         color: {
-          value: "#ffdd40",
+          value: ["#7a57eb","#38ebc9","#50c0e3"],
         },
         links: {
           color: "#ffdd40",
           distance: 150,
-          enable: true,
+          enable: false,
           opacity: 0.5,
           width: 1,
         },
         collisions: {
-          enable: true,
+          enable: false,
         },
         move: {
           direction: "none",
@@ -48,7 +48,7 @@ export default {
             default: "bounce",
           },
           random: false,
-          speed: 5,
+          speed: 3,
           straight: false,
         },
         number: {
@@ -56,13 +56,13 @@ export default {
             enable: true,
             area: 800,
           },
-          value: 100,
+          value: 500,
         },
         opacity: {
           value: 0.5,
         },
         shape: {
-          type: "circle",
+          type: ["circle","star","edge","triangle"],
         },
         size: {
           value: { min: 1, max: 3 },
